@@ -1,0 +1,22 @@
+[package]
+name = "arm-profile-a"
+version = "0.1.0"
+authors = ["Denis Vasilìk <rust@denisvasilik.com>"]
+description = "API for Arm profile A"
+homepage = "https://github.com/denisvasilik/arm-profile-a"
+repository = "https://github.com/denisvasilik/arm-profile-a"
+readme = "README.md"
+keywords = ["arm", "thumb", "a32", "t32", "profile-a", "cortex-a"]
+categories = ["embedded", "no-std"]
+license = "MIT/Apache-2.0"
+edition = "2018"
+exclude = [
+    ".gitignore",
+    "Makefile",
+]
+
+[dependencies]
+register = "0.3.2"
+
+[features]
+inline-asm = []
