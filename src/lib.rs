@@ -8,7 +8,7 @@
 //! If you want to contribute, feel free to reach out!
 
 #![no_std]
-#![cfg_attr(feature = "inline-asm", feature(asm))]
+#![cfg_attr(feature = "inline-asm", feature(llvm_asm))]
 #![feature(core_intrinsics)]
 
 pub mod register;
